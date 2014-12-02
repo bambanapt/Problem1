@@ -1,10 +1,13 @@
 class Lovemac
 	def lovemac(number)
+		ans = ""
 		if (number%3).zero?
-			puts "Love"
+			ans = "Love"
 		elsif (number%5).zero?
-			puts "Mac"
+			ans = "Mac"
 		else 
-			puts number	
+			ans = number	
+		end
+		ans
 	end
 end
