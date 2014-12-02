@@ -4,6 +4,8 @@ def lovemac(number)
 		ans = "Love"
 	elsif (number%5).zero?
 		ans = "Mac"
+	elsif (number%3).zero? && (number%5).zero?
+		ans = "HateWindows"
 	else 
 		ans = number	
 	end
